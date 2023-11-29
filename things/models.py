@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Things(models.Model):
+class Thing(models.Model):
     name = models.CharField(
         unique=True,
         blank=False,
